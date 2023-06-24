@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>DOM Manupulation</title>
+</head>
+<style>
+  .container {
+    border: 2px solid black;
+    width: 400px;
+    height: 200px;
+    margin-top: 230px;
+    margin-left: 500px;
+    padding: 20px;
+
+  }
+
+  button {
+    padding: 10px 20px;
+    background-color: #303030;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+</style>
+
+<body>
+  <div class="container">
+    <button onclick="addItem()">Add Item</button>
+    <button onclick="removeFirstItem()">Remove First Item</button>
+    <ul id="myList"></ul>
+  </div>
+  <script src="3DOMmanupulation.js"></script>
+</body>
+
+</html>
